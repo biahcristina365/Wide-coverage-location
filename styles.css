@@ -1,0 +1,131 @@
+* {
+     font-family: "Montserrat", sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.cabeçario-header {
+    font-weight: 600;
+    line-height: 29px;
+    cursor: pointer;
+    color: black;
+    margin-right: 30px;
+}
+
+.cabeçario-header:hover {
+    opacity: 0.8;
+}
+
+.cabeçario-header:active {
+    opacity: .5;
+}
+
+.button-header {
+    background: #80ad1e;
+    border-radius: 20.5px;
+    width: 124px;
+    height: 51px;
+    border: none;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-header:hover {
+    opacity: 0.8;
+}
+
+.button-header:active {
+    opacity: .5;
+}
+
+.img-logo {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 71px;
+    color: rgb(13, 13, 39);
+    width: 515;
+}
+
+p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #383535;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    background: #000000;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.button-main:hover {
+    opacity: 0.8;
+}
+
+.button-main:active {
+    opacity: .5;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        display: none;
+    }
+
+    .img-logo {
+        position: relative;
+        max-width: 70%;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+
+    h1 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 58px 58px 0 50px;
+        text-align: center;
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .button-main {
+        margin: 0 auto;
+        display: block;
+    }
+}
